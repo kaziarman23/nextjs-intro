@@ -31,6 +31,10 @@ export default function RootLayout({ children }) {
                             {" "}
                             <Link href="/clientSide">Client-Side</Link>
                         </li>
+                        <li>
+                            {" "}
+                            <Link href="/fetch">Fetch</Link>
+                        </li>
                     </ul>
                 </nav>
                 <hr />

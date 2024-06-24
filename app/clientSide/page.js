@@ -1,5 +1,5 @@
-import React from "react";
-import button from "../components/button";
+
+import Button from "@/app/components/Button";
 
 function clientSide() {
     return (
@@ -26,10 +26,9 @@ function clientSide() {
                     like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
-            
-            <div className="w-full h-5 flex justify-center items-center">
-                <h1>Have to fix it latter..</h1>
-                <button />
+
+            <div className="w-full h-10 flex justify-center items-center">
+                <Button />
             </div>
         </div>
     );

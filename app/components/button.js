@@ -2,7 +2,7 @@
 
 import React from "react";
 
-function button() {
+function Button() {
     return (
         <div className="mt-5">
             <button
@@ -15,4 +15,4 @@ function button() {
     );
 }
 
-export default button;
+export default Button;
