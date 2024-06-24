@@ -1,18 +1,18 @@
 import Link from "next/link";
 import React from "react";
 
-function AboutLayout({ children }) {
+function routingLayout({ children }) {
     return (
         <>
-            <nav className="my-6">
-                <ul className="flex gap-5">
+            <nav className="w-full h-10 my-6">
+                <ul className="flex justify-center items-center gap-5">
                     <li>
                         {" "}
-                        <Link href="/about/misstion">Misstion</Link>
+                        <Link href="/routing/mission">Mission</Link>
                     </li>
                     <li>
                         {" "}
-                        <Link href="/about/vision">Vision</Link>
+                        <Link href="/routing/vision">Vision</Link>
                     </li>
                 </ul>
             </nav>
@@ -21,4 +21,4 @@ function AboutLayout({ children }) {
     );
 }
 
-export default AboutLayout;
+export default routingLayout;

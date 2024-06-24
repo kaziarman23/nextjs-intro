@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" className="p-6">
             <body className={inter.className}>
-                <nav className="my-6">
+                <nav className="w-full flex justify-center items-center my-6">
                     <ul className="flex gap-5">
                         <li>
                             {" "}
@@ -21,7 +21,15 @@ export default function RootLayout({ children }) {
                         </li>
                         <li>
                             {" "}
-                            <Link href="/about">About</Link>
+                            <Link href="/routing">Routing</Link>
+                        </li>
+                        <li>
+                            {" "}
+                            <Link href="/error">Error</Link>
+                        </li>
+                        <li>
+                            {" "}
+                            <Link href="/clientSide">Client-Side</Link>
                         </li>
                     </ul>
                 </nav>
