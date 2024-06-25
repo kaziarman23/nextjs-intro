@@ -1,4 +1,6 @@
+import PrevBtn from '@/app/components/prevBtn'
 import getUser from '@/lib/getuser'
+
 import React from 'react'
 
 async function posts({params}) {
@@ -13,7 +15,8 @@ async function posts({params}) {
         <h3>Website : {post.website}</h3>
         <h3>Email : {post.email}</h3>
         <h3>Contact : {post.phone}</h3>
-        {/* have to add a client side button to go bake in the previous fetching page */}
+        
+        <PrevBtn/>
     </div>
   )
 }
